@@ -1,4 +1,4 @@
-# oxcc
+# OxCC
 
 ## Building
 
@@ -54,6 +54,11 @@ cargo run
 # or manually
 # arm-none-eabi-gdb target/thumbv7em-none-eabihf/debug/oxcc
 ```
+
+## FOTA Bootloader
+
+An FOTA capable [bootloader](fota-bootloader/) is used to enable OxCC firmware
+updates via TCP or CAN.
 
 ## Links
 
