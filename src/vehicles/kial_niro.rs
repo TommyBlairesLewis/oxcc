@@ -162,11 +162,11 @@ pub const fn brake_position_to_volts_high(position: f32) -> f32 {
 }
 
 /*
- * @brief Value of the accelerator position that indicates operator
+ * @brief Value of the brake position that indicates operator
  * override. [steps] */
 //
 //
-pub const BRAKE_PEDAL_OVERRIDE_THRESHOLD: u16 = 200 << 2;
+pub const BRAKE_PEDAL_OVERRIDE_THRESHOLD: u16 = 130 << 2;
 
 /*
  * @brief Minimum value of the high spoof signal that activates the brake
